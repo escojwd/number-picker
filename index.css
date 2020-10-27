@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.numbers-wrapper div {
+    display: inline-block;
+    margin: 25px;
+}
+
+.number {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.simple-black div {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin: 15px auto;
+    color: white;
+    vertical-align: middle;
+    position: relative;
+
+}
+
+.simple-black button {
+    width: 100px;
+}
+
+.simple-black p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+}
