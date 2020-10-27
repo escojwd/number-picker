@@ -7,7 +7,7 @@ const clearerBtn = document.getElementById('clearer');
 let x = choosedNumber.textContent;
 
 clearerBtn.addEventListener('click', () => {
-    choosedNumber.textContent = 'x';
+    choosedNumber.textContent = x;
 });
 
 selectableNumbers.forEach((selectednumber) => {
@@ -19,6 +19,5 @@ selectableNumbers.forEach((selectednumber) => {
 selectableBtns.forEach((selectableBtn) => {
     selectableBtn.addEventListener('click', event => {
         choosedNumber.textContent = selectableBtn.previousElementSibling.textContent;
-        
     });
 });
